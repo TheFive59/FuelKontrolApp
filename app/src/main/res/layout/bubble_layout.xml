@@ -1,0 +1,25 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="65dp"
+    android:id="@+id/buble_head"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/chat_head_profile_iv"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/bg_fuel_kontrol"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/close_btn"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/bg_felcha_abajo"
+        tools:ignore="ContentDescription" />
+</RelativeLayout>

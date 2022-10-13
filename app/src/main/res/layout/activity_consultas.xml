@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.fuelkontrol.activity.ConsultasActivity">
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/swipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150dp">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvLista"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Consultas Fuel Kontrol"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/lytPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15sp"
+                android:text="Fecha Inicio"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtFechaInicio"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15sp"
+                android:background="@drawable/stylo_borde_encabezados"
+                android:clickable="true"
+                android:focusable="false"
+                android:inputType="date"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/fondo"
+                android:textColorHighlight="#009688"
+                android:textColorHint="@color/light_blue_900"
+                android:textColorLink="#009688"
+                android:textSize="12sp"
+                app:layout_constraintHorizontal_bias=".2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15sp"
+                android:text="Fecha Fin"
+
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edtFechaFin"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15sp"
+                android:background="@drawable/stylo_borde_encabezados"
+                android:clickable="true"
+                android:focusable="false"
+                android:imeOptions="actionNext"
+                android:inputType="date"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textAlignment="center"
+                android:textColor="@color/fondo"
+                android:textColorHighlight="#009688"
+                android:textColorHint="@color/light_blue_900"
+                android:textColorLink="#009688"
+                android:textSize="12sp"
+                app:layout_constraintHorizontal_bias=".2"
+                app:layout_constraintLeft_toLeftOf="parent"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:text="Unidad"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtUnidad"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:hint="Ingrese Unidad"
+            android:imeOptions="actionNext"
+            android:inputType="textCapSentences"
+            android:textColor="@color/fondo"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColorHint="@color/fondo"
+            android:textSize="12sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="5dp"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="5sp"
+                    android:layout_marginVertical="7sp"
+                    android:text="Total de registros:"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtNumeroRegistros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginVertical="7sp"
+                    android:text="0"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                tools:ignore="MissingConstraints">
+
+                <TextView
+                    android:id="@+id/txtTipoConsulta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="5dp"
+        android:background="?selectableItemBackgroundBorderless"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:text="Empresa"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15sp"
+            android:layout_weight=".2"
+            android:background="@drawable/stylo_borde_spinner"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/spnEmpresa"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:spinnerMode="dropdown"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="15sp"
+                android:layout_height="15sp"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5sp"
+                android:layout_gravity="center"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/bg_felcha_abajo" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15sp"
+                android:text="Al día :"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.SwitchCompat
+                android:id="@+id/swConsultaDiario"
+                android:layout_width="match_parent"
+                android:layout_height="25sp"
+                android:layout_marginRight="15dp"
+                android:thumb="@drawable/custom_thumb"
+                app:track="@drawable/custom_track" />
+        </LinearLayout>
+        <CheckBox
+                android:id="@+id/chbImprimir"
+            android:layout_width="match_parent"
+            android:clickable="false"
+            android:layout_height="25sp"
+             />
+        <TextView
+            android:id="@+id/unidad1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        <TextView
+            android:id="@+id/Usurio1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        <TextView
+            android:id="@+id/Papeleta1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        <TextView
+            android:id="@+id/odometro1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        <TextView
+            android:id="@+id/litrosdespacho1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        <TextView
+            android:id="@+id/litrosPapeleta1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        <TextView
+            android:id="@+id/fecha1"
+            android:layout_width="match_parent"
+            android:layout_height="0sp"
+            android:textSize="1sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

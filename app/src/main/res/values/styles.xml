@@ -1,0 +1,33 @@
+<resources>
+
+    <style name="Widget.Theme.Sondas.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/color_transparente</item>
+        <item name="colorAccent">@color/purple_500</item>
+    </style>
+    <style name="AppThemeConsultas" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryDark">@color/fondo</item>
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+    <style name="MyActionBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/fondo</item>
+        <item name="android:colorBackground">@color/fondo</item>
+    </style>
+    <style name="ThemeClose" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textColor">@color/fondo</item>
+        <item name="android:colorBackground">@color/fondo</item>
+    </style>
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/teal_200</item>
+    </style>
+    <style name="Theme_Dialog_Translucent" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>

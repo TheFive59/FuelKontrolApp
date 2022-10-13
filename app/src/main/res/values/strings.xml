@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">Fuel Kontrol</string>
+    <string name="shared_preference_key">com.d2magicos.bluetoohapp.f635f2e523d7c64f5b4ad9179b689433</string>
+    <string name="prompt_email">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="ingresarPapeleta">Ingresar Papeleta</string>
+    <string name="Kilometros">Kilometros</string>
+    <string name="unidad">Unidad</string>
+    <string name="litros">Litros</string>
+    <string name="despacho">DESPACHO</string>
+    <string name="recordar_password"> Recordar contraseña</string>
+    <string name="text_bluetooth_adapter_error">Error Bluetooth Adapter, porfavor reinicia tu telefono</string>
+    <string name="text_unknown_error">Unknown error: porfavor reinicia la aplicación</string>
+    <string name="text_no_bluetooth_permission">No se puede iniciar bluetooth, revise sus permisos</string>
+    <string name="text_unable_to_connect_to_device">No se puede conectar al dispositivo</string>
+    <string name="text_device_connection_was_lost">Se perdió la conexión del dispositivo</string>
+    <string name="text_bluetooth_service_foreground_message">Adimistración Bluetooth</string>
+    <string name="text_bluetooth_service">Servicio Bluetooth</string>
+    <string name="text_no_bluetooth_adapter">Adaptador Bluetooth no encontrado</string>
+    <string name="text_connected_to">Conectado a </string>
+    <string name="text_bluetooth_adaptor_error">Error bluetooth adaptador!</string>
+    <string name="text_no_paired_devices">Dispositivos no emparejados</string>
+    <string name="text_not_connected">No conectado</string>
+    <string name="text_disconnect">Desconectar!</string>
+    <string name="text_disconnect_confirm">Esta seguro que desea desconectar?</string>
+    <string name="text_yes_confirm">Si</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_bt_service_not_running">Servicio Bluetooth no esta ejecutandose!</string>
+    <string name="text_bt_not_enabled">Bluetooth no está habilitado!</string>
+    <string name="preference_update_pool_interval">preference_update_pool_interval</string>
+    <string name="preference_last_connected_device">last_connected_device</string>
+    <string name="title_insertar">Insertar</string>
+    <string name="title_consultas">Consultas</string>
+    <string name="title_despacho">Despacho</string>
+    <string name="title_configuracion">Ajustes</string>
+    <string name="no_internet">¡Sin conexión a intenet!.</string>
+    <string name="error_acceso_server">\n\n¡Sin acceso al servidor!.</string>
+    <string name="title_dispositivos">Dispositivos Bluetooth</string>
+    <string name="no_server_access"><html>
+
+      <body>
+<strong><left>\nIntenta:\n\n</left></strong><br />
+<left>      ●    Cerrar sesión. \n</left><br />
+<left>      ●    Reiniciar la aplicación. \n</left><br />
+<left>      ●    Verifica la configuración de acceso. \n</left><br />
+<left>      ●    Borrar la memoria caché de la aplicación.\n\n</left><br /><br />
+<left size="10px">ERR_NO_SERVER_ACCESS\n\n</left><br />
+    </body>
+</html></string>
+
+    <string name="no_internet_connection"><html>
+      <body>
+<strong><left>\nIntenta:\n\n</left></strong><br />
+<left>      ●    Desactivar el modo avión.\n</left><br />
+<left>      ●    Activar los datos móviles o la conexión Wi-Fi.\n</left><br />
+<left>      ●    Verificar la señal en tu área.\n\n</left><br /><br />
+<left size="10px">ERR_INTERNET_DISCONNECTED\n\n\n\n</left><br />
+    </body>
+</html></string>
+    <string name="devices">Dispositivos Bluetooth</string>
+    <string name="bienvenida">B I E N V E N I D O\n</string>
+    <string name="double_back_pressed">Presione nuevamente para reiniciar Fuel Kontrol</string>
+
+</resources>

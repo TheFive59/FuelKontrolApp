@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50sp"
+            android:gravity="start"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtEstatusBluetooth"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/stylo_borde_sin_despacho"
+                android:gravity="center"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_connect"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:gravity="end"
+            android:src="@drawable/ic_bluetooth_connected" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:src="@drawable/logo_fuel_kontrol" />
+
+        <ImageView
+            android:layout_width="105sp"
+            android:layout_height="60sp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:src="@drawable/bg_fuel_kontrol" />
+
+        <ImageView
+            android:layout_width="100sp"
+            android:layout_height="60sp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:src="@drawable/bg_fuel_kontrol" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:text="UNIDAD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/UnidadB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/UnidadB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:clickable="false"
+            android:text="PAPELETAS"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/PapeletasB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:text="2"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/PapeletasB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:clickable="false"
+            android:text="LITROS VALE"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/LitrosB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:text="10.2"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/LitrosB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:clickable="false"
+            android:text="SURTIENDO"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtLitrosG"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:text="10.2"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/txtLitrosG2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_sin_despacho"
+            android:clickable="false"
+            android:gravity="center"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:clickable="false"
+            android:text="STATUS"
+            android:textSize="14sp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swStatusD1"
+            android:layout_width="105sp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="15dp"
+            android:clickable="false"
+            android:thumb="@drawable/custom_thumb"
+            app:track="@drawable/custom_track" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/swStatusD2"
+            android:layout_width="105sp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="30dp"
+            android:clickable="false"
+            android:thumb="@drawable/custom_thumb"
+            app:track="@drawable/custom_track" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminateTint="@color/colorStatusText"
+            android:progressDrawable="@drawable/custom_progressbar"
+            tools:progress="10" />
+
+        <TextView
+            android:id="@+id/lblProgreso"
+            android:layout_width="match_parent"
+            android:layout_height="17sp"
+            android:gravity="center"
+            android:text="Ingrese unidad."
+            android:textColor="@color/fondo"
+            android:textSize="13sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lblStatus"
+            android:layout_width="match_parent"
+            android:layout_height="14sp"
+            android:gravity="right"
+            android:text="Estado"
+            android:textColor="@color/colorGris"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSeleccionarPapeletas"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/dialog_button_selector"
+            android:text="@string/unidad"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvListaValesPendientes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_connect"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="?selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_bluetooth_connected" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:src="@drawable/bg_fuel_kontrol">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:src="@drawable/bg_dispensador"></ImageView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:src="@drawable/bg_dispensador"></ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="110dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:text="UNIDAD"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/UnidadB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="UNIDAD B1"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/UnidadB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="UNIDAD B2"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:text="PAPELETAS"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/PapeletasB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="PAP B1"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/PapeletasB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="PAP B2"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:text="LITROS"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/LitrosB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="LITROS B1"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/LitrosB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="LITROS B2"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:text="SURTIENDO"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/surtiendoB1"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="0000.00"
+            android:textSize="14sp"
+            />
+
+        <TextView
+            android:id="@+id/surtiendoB2"
+            android:layout_width="105sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_listview"
+            android:gravity="center"
+            android:text="0000.00"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="270dp"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/lblRecibo"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:gravity="center"
+            android:text="Enviando"
+            android:textSize="8sp"
+            />
+
+        <EditText
+            android:id="@+id/edtEnviar"
+            android:layout_width="100sp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30sp"
+            android:background="@drawable/stylo_borde_encabezados"
+            android:hint=""
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:textColorHighlight="#009688"
+            android:textColorHint="@color/light_blue_900"
+            android:textColorLink="#009688"
+            android:textSize="12sp"
+            />
+
+        <Button
+            android:id="@+id/btnEnviar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:text="ENVIAR"
+            android:textSize="8sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360sp"
+        android:orientation="horizontal">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rcvListaValesPendientes"
+            android:background="@color/purple_700"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="590sp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnSeleccionarPapeletas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/stylo_borde_editext"
+            android:gravity="center"
+            android:text="@string/unidad"
+            android:textSize="15sp"
+            />
+    </LinearLayout>
+</RelativeLayout>

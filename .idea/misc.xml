@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_despachando.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_despacho_finalizado.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_error.xml" value="0.2064814814814815" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_listas.xml" value="0.16145833333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_listview.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_sin_despacho.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable-v24/stylo_borde_spinner.xml" value="0.19692307692307692" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/custom_progressbar.xml" value="0.10092592592592593" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/custom_progressbar_error.xml" value="0.1578125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/custom_thumb.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/custom_track.xml" value="0.20833333333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/customprogressbar.xml" value="0.19635416666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/dialog_button_selector.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/dialog_container.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/dialog_divider.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/ic_delete_white_24dp.xml" value="0.1359375" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/ic_settings.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/main_button.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_botones.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_button.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_button_fragment.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_editext.xml" value="0.18489583333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_ingresar_unidad.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_linearlayout.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_borde_login.xml" value="0.13425925925925927" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/drawable/stylo_menu.xml" value="0.240625" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/Splash.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_ajustes.xml" value="0.37592592592592594" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_consultas.xml" value="0.3448" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_despacho.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_despacho_combustible.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_despachos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_fullscreen.xml" value="0.30895983522142123" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_insertar_papeleta.xml" value="0.4292604501607717" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_login_ajustes.xml" value="0.40039840637450197" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_menu_inicio.xml" value="0.35074626865671643" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_panel.xml" value="0.5" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_print.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_splash.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_terminal_principal.xml" value="0.22" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_unidad_a_despachar.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/activity_vincular_dispositivo.xml" value="0.11979166666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/bubble_layout.xml" value="0.5" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/cust_toast_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/device_list_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/device_list_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/dialog.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/dialog_button_selector.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/error_de_acceso.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/error_de_accesp.xml" value="0.121875" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/fragment_terminal.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/item_device_name.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/item_header.xml" value="0.38948626045400236" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/item_vales_pendientes.xml" value="0.5" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/mostrar_swipe.xml" value="0.27800829875518673" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/spinner_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/layout/splash.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/menu/menu_devices.xml" value="0.67" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/menu/menu_terminal.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/FUEL KONTROL/app/src/main/res/menu/usuario_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable-v24/stylo_borde_encabezados.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable-v24/stylo_borde_listview.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable-v24/stylo_borde_listview_activo.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable-v24/stylo_borde_spinner.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_despacho.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_despacho_background.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.19270833333333334" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/ic_search.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/stylo_borde_editext.xml" value="0.18177083333333333" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/drawable/stylo_borde_linearlayout.xml" value="0.2203125" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_ajustes.xml" value="0.22" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_calibracion.xml" value="0.75" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_configuracion.xml" value="0.16458333333333333" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_despacho.xml" value="0.33657858136300417" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_despachos.xml" value="0.18238021638330756" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_fullscreen.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_insertar_papeleta.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_login_ajustes.xml" value="0.25" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_menu.xml" value="0.21" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_menu_inicio.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_panel.xml" value="0.1105072463768116" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_splash.xml" value="0.31258644536652835" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_unidad_a_despachar.xml" value="0.22" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/activity_vincular_dispositivo.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/edit_text_unidad.xml" value="0.12447916666666667" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/fragment_configuracion.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/fragment_dashboard.xml" value="0.16875" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/fragment_home.xml" value="0.16614583333333333" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/fragment_notifications.xml" value="0.17391304347826086" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/fragment_primer.xml" value="0.13612866168868468" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/item_device_name.xml" value="0.1546875" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/item_header.xml" value="0.27488151658767773" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/item_vales_pendientes.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/menu_usuarios.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/spinner_menu.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/layout/style_borde_linearloyout.xml" value="0.19384057971014493" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/menu/bottom_nav_menu.xml" value="0.33" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/menu/menu_usuario.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/menu/usuario_menu.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/mipmap-anydpi-v26/ic_despacho.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/CINCOTRECE/AndroidStudioProjects/Sondas/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
